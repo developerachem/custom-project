@@ -1,0 +1,266 @@
+@media only screen and (max-width: 600px){
+    /* Main Menu Code */
+    .global_banner_section .main_menu{
+        display: none !important;
+    }
+
+    /* Mobil Menu Code */
+    .mobile_header{
+        display: flex !important;
+    }
+
+    /* Banner Section */
+    .global_banner_section .banner_body {
+        display: block;
+    }
+    .global_banner_section .banner_body .banner_content h2 {
+        font-size: 45px;
+    }
+    .global_banner_section .banner_body .banner_content h5 {
+        font-size: 14px;
+    }
+    .global_banner_section::after {
+        content: '';
+        height: 457px;
+        width: 484px;
+        top: 0px;
+        right: -23%;
+    }
+    .global_banner_section .banner_body .banner_content .banner_counter {
+        width: 100%;
+    }
+    .global_banner_section .banner_body .banner_content .banner_user {
+        width: 91%;
+        grid-template-columns: 1.1fr 2fr;
+        padding:  0 25PX;
+    }
+    .global_banner_section .banner_body .banner_right {
+        margin-top: 40px;
+    }
+
+    .global_banner_section .banner_brand::after {
+        height: 840px;
+        width: 570px;
+        top: -160%;
+        left: -4%;
+    }
+    .global_banner_section .banner_brand::before {
+        height: 558px;
+        width: 636px;
+        top: -164%;
+        left: -4%;
+    }
+
+    /* Chart Section */
+    .global_banner_section .chart_section .chart_image {
+        width: 100%;
+    }
+    .global_banner_section .chart_section::after {
+        width: 1130px;
+        height: 765px;
+        bottom: -47%;
+        left: -28%;
+        transform: rotate(27deg);
+    }
+    .global_banner_section .chart_section .chart_image::after {
+        height: 315px;
+        width: 459px;
+        bottom: -43%;
+        right: -59%;
+    }
+    .global_banner_section .chart_section .chart_image::before {
+        height: 600px;
+        width: 600px;
+        top: -81%;
+        left: -40%;
+    }
+    .global_banner_section .chart_section h1 {
+        font-weight: 500;
+    }
+
+
+    /* Global Section */
+    .global_banner_section .work_section::after {
+        display: none;
+    }
+
+    /* Work Section */
+    .global_banner_section .work_section .work_header {
+        width: 100%;
+    }
+    .global_banner_section .work_section .work_header h1 {
+        font-size: 30px;
+    }
+    .global_banner_section .work_section .work_section_body {
+        display: block;
+        max-width: 70%;
+        margin: auto;
+    }
+    .global_banner_section .work_section .work_section_body .work_box{
+        margin-top: 30px;
+    }
+    .global_banner_section .work_section .work_section_body .work_box:nth-child(2)::before, 
+    .global_banner_section .work_section .work_section_body .work_box:nth-child(3)::before ,
+    .global_banner_section .work_section .work_section_body .work_box:nth-child(2)::after {
+        display: none;
+    }
+
+    /* Service Section */
+    .global_banner_section .service_section .service_section_header {
+        display: block;
+    }
+    .global_banner_section .service_section .service_section_header .service_section_right {
+        display: none;
+    }
+    .global_banner_section .service_section .service_section_header .service_section_left {
+        width: 100%;
+        text-align: center;
+    }
+    .global_banner_section .service_section .service_section_header .service_section_left h1 {
+        font-size: 30px;
+    }
+    .global_banner_section .service_section .service_section_header .service_section_left p {
+        font-size: 14px;
+    }
+    .global_banner_section .service_section .service_body {
+        display: block;
+    }
+    .global_banner_section .service_section .service_body .service_box {
+        margin-bottom: 20px;
+    }
+
+    /* Token Section */
+    .token_section{
+        display: none;
+    }
+    .mobile_token_section{
+        display: block !important;
+    }
+
+    /* Road Map Section */
+    .road_map_section{
+        display: none;
+    }
+
+    .mobile_road_map_section{
+        display: block !important;
+    }
+
+    /* Commming Soone Mode */
+    .global_banner_section .coming_soon_setion {
+        margin-top: -100px;
+    }
+    .global_banner_section .coming_soon_setion h1 {
+        font-size: 30px;
+    }
+    .global_banner_section .coming_soon_setion .coming_sone_body {
+        display: block;
+    }
+    .global_banner_section .coming_soon_setion .coming_sone_body .coming_sone_right {
+        text-align: center;
+    }
+
+    /* Team Section */
+    .global_banner_section .team_section .team_body .team_box {
+        width: 80%;
+        margin: auto;
+    }
+    .global_banner_section .team_section .team_body .team_box::before {
+        content: '';
+        height: 70%;
+        width: 70%;
+        top: 1.5%;
+        left: 14%;
+    }
+
+    /* Global Section */
+    .global_banner_section .tokenomics_section .tokenomics_body {
+        display: block;
+        text-align: center;
+    }
+    .button_center {
+        display: none;
+    }
+    .tokenomics_right {
+        margin-top: 30px;
+    }
+
+    /* FAQ Section */
+    .global_banner_section .faq_section .faq_title h1 {
+        font-size: 25px;
+    }
+
+    .global_banner_section .faq_section .faq_section_body {
+        display: block;
+    }
+    .global_banner_section .faq_section .faq_section_body .faq_section_right img {
+        width: 100%;
+    }
+
+    /* Footer */
+    .global_banner_section .footer_section .footer_top img {
+        width: 60px;
+    }
+    .global_banner_section .footer_section .footer_top ul li a {
+        margin-left: 12px;
+        font-size: 14px;
+    }
+    .global_banner_section .footer_section .footer_bottom {
+        display: block;
+        text-align: center;
+    }
+    .global_banner_section .footer_section .footer_bottom ul {
+        justify-content: center;
+    }
+    .global_banner_section .footer_section .footer_bottom ul li a img {
+        width: 35px;
+    }
+
+
+    /* All Before After */
+    .global_banner_section .work_section::before {
+        height: 600px;
+        width: 335px;
+        top: 19%;
+    }
+    .global_banner_section .work_section .work_section_body .work_box:nth-child(3)::after {
+        top: -174%;
+        left: -89%;
+    }
+    .global_banner_section .service_section .service_section_header::before {
+        display: none;
+    }
+    .global_banner_section .service_section .service_body::after {
+        height: 905px;
+        width: 500px;
+        top: 66%;
+        left: -46%;;
+    }
+    .global_banner_section .coming_soon_setion::after {
+        display: none;
+    }
+    .global_banner_section .team_section::before {
+        height: 1284px;
+        width: 1600px;
+        top: -35%;
+        left: -5%;
+    }
+    .global_banner_section .team_section .team_body{
+        position: relative;
+    }
+    .global_banner_section .team_section .team_body::after{
+        content: '';
+        height: 90%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url('../img/Group 1413371413.png');
+        position: absolute;
+        top: 10%;
+        right: -8%;
+        z-index: -1;
+    }
+    .global_banner_section .team_section::after {
+        display: none;
+    }
+}
